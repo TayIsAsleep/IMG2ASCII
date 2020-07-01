@@ -60,8 +60,6 @@ def img_to_ascii(_IMG,_COLOR,loadingscreen_on,asciival_input,Scale_input):
     for i in pixel_values:
         new_values.append(int(((i[0])+(i[1])+(i[2]))/3))    
 
-
-
     output_list = []
     for i in loading(new_values, "Choosing characters based on B&W info: ", 40):
         _c = False
